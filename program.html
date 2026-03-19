@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Program — APGC-Lab</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="program.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+  <!-- NAV -->
+  <nav id="navbar" class="scrolled">
+    <div class="nav-inner">
+      <a href="index.html" class="nav-logo">APGC<span>Lab</span></a>
+      <ul class="nav-links">
+        <li><a href="index.html#about">About Us</a></li>
+        <li><a href="index.html#programs" class="active">Programs</a></li>
+        <li><a href="index.html#alumni">Alumni</a></li>
+        <li><a href="index.html#contact" class="nav-cta">Contact</a></li>
+      </ul>
+      <button class="hamburger" id="hamburger" aria-label="메뉴 열기">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+    <div class="mobile-menu" id="mobileMenu">
+      <a href="index.html#about">About Us</a>
+      <a href="index.html#programs">Programs</a>
+      <a href="index.html#alumni">Alumni</a>
+      <a href="index.html#contact">Contact</a>
+    </div>
+  </nav>
+
+  <!-- PAGE CONTENT (동적 렌더링) -->
+  <div id="pageContent">
+    <!-- JS로 채워집니다 -->
+  </div>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-inner">
+        <div class="footer-brand">
+          <a href="index.html" class="nav-logo">APGC<span>Lab</span></a>
+          <p>POSTECH 창업 학생단체<br />Aspiring Pioneers & Growth Catalyst Lab</p>
+        </div>
+        <div class="footer-links">
+          <h4>바로가기</h4>
+          <a href="index.html#about">About Us</a>
+          <a href="index.html#programs">Programs</a>
+          <a href="index.html#alumni">Alumni</a>
+          <a href="index.html#contact">Contact</a>
+        </div>
+        <div class="footer-links">
+          <h4>소셜</h4>
+          <a href="#">Instagram</a>
+          <a href="#">LinkedIn</a>
+          <a href="#">GitHub</a>
+          <a href="#">Notion</a>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>© 2026 APGC-Lab, POSTECH. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="data.js"></script>
+  <script src="program.js"></script>
+</body>
+</html>
